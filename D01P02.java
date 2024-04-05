@@ -4,7 +4,7 @@ package com.learning.coreday1session1;
 	 void displayLabel();
 	}
 
-	//Tablet class implementing MedicineInfo interface
+	
 	class Tablet implements MedicineInfo {
 	 @Override
 	 public void displayLabel() {
@@ -12,7 +12,7 @@ package com.learning.coreday1session1;
 	 }
 	}
 
-	//Syrup class implementing MedicineInfo interface
+	
 	class Syrup implements MedicineInfo {
 	 @Override
 	 public void displayLabel() {
@@ -20,7 +20,7 @@ package com.learning.coreday1session1;
 	 }
 	}
 
-	//Ointment class implementing MedicineInfo interface
+	
 	class Ointment implements MedicineInfo {
 	 @Override
 	 public void displayLabel() {
@@ -28,7 +28,7 @@ package com.learning.coreday1session1;
 	 }
 	}
 
-	//D01PO2 class to test the polymorphic behavior
+	
 	public class D01P02 {
 	 public static void main(String[] args) {
 	     // Declare Medicine instances
